@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #172554;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #c4b5fd;
+}
+
+.box {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #263b70;
+  border-radius: 12px;
+}
+
+h2 {
+  color: #bfdbfe;
+}
+
+#clock,
+#stopwatch {
+  font-size: 36px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #6366f1;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #818cf8;
+}
+
+button:disabled {
+  background-color: #64748b;
+  cursor: not-allowed;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}

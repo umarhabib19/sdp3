@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Clock and Stopwatch</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+  <h1>Digital Clock and Stopwatch</h1>
+
+  <div class="box">
+    <h2>Digital Clock</h2>
+    <p id="clock">00:00:00</p>
+    <p id="date"></p>
+    <h2>Stopwatch</h2>
+    <p id="stopwatch">00:00:00</p>
+    <button onclick="startStopwatch()" id="startButton">Start</button>
+    <button onclick="addLap()" id="lapButton" disabled>Lap</button>
+    <button onclick="resetStopwatch()">Reset</button>
+    <h3>Lap Times</h3>
+    <ol id="laps"></ol>
+  </div>
+
+  <script src="jscript4.js"></script>
+</body>
+</html>
